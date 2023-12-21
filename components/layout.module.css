@@ -1,0 +1,34 @@
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.mainContent {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.mainContent article {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.backToHome {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding-left: 0;
+  padding-bottom: 40px;
+}
+
+.backToHome a {
+  color: #2D7676;
+}

@@ -1,0 +1,76 @@
+.swip {
+  object-fit: cover;
+  width: 100%;
+  min-height: calc(100vh - 108px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 40px;
+}
+
+.swip .articleImg {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+  object-position: center center;
+}
+
+.swip img {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.swip h2 {
+  text-align: left;
+  line-height: 30px;
+  font-size: 28px;
+  margin: 0;
+  color: #020408;
+}
+
+.description {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.description div:first-of-type {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.description p {
+  text-align: left;
+  margin: 0;
+  color: #020408;
+}
+
+.swiperWrapper {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding-bottom: 80px;
+}
+
+.authorBox {
+  margin-right: auto;
+  margin-top: -50px;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.authorBox img {
+  border-radius: 50%;
+}
+
+.authorBox a:hover {
+  text-decoration: none;
+}
+
+.authorBox p {
+  margin: 0;
+  color: #F3F6F7;
+} 

@@ -1,0 +1,124 @@
+.navFullWidth {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  padding-top: 20px;
+  background-color: #F3F6F7;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+}
+
+.navContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    align-items: center;
+    justify-items: center;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.navContainer nav:first-of-type {
+  margin-right: auto;
+}
+
+.navContainer nav:last-of-type {
+  margin-left: auto;
+}
+
+.filterNav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+
+.filterNav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 0;
+  margin: 10px;
+}
+
+.filterNav li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.filterNav a {
+  color: #020408;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.footerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1140px;
+  padding: 10px 20px;
+  background-color: #F3F6F7;
+  margin: 0 auto;
+}
+
+.navContainer ul, .footerContainer ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  gap: 20px;
+  padding: 0;
+}
+
+.footerContainer {
+  background-color: transparent;
+}
+
+.footerContainer ul li a, .footerContainer p {
+  color: #F3F6F7;
+  font-size: 16px;
+}
+
+.footerContainer p a{
+  margin-left: 5px;
+  color: #F3F6F7;
+  text-decoration: underline;
+}
+
+.navContainer ul li a {
+  color: #020408;
+  font-weight: 500;
+  font-family: Verdana, sans-serif;
+}
+
+.navContainer ul li a:hover {
+  color: #0087a6;
+  text-decoration: none;
+}
+
+.fullWidthFooter {
+  width: 100%;
+  background-color: #1E5252;
+}
+
+.titleContainer {
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.titleContainer h1, .titleContainer h5 {
+  color: #020408;
+  text-align: center;
+  margin: 0;
+}
+
