@@ -1,11 +1,7 @@
 import Head from 'next/head';
 import Layout, { siteTitle } from '../components/layout';
-import utilStyles from '../styles/utils.module.css';
 import { getSortedPostsData, getLatestPosts } from '../lib/posts';
-import Link from 'next/link';
-import Date from '../components/date';
-import Slider from '../components/slider';
-import LastPost from '../components/LastPost';
+import Slider from '../components/Slider';
 import NavFilter from '../components/NavFilter';
 import TitleContainer from '../components/TitleContainer';
 
