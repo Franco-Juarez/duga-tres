@@ -5,11 +5,16 @@ import Economy from "./svg/economy";
 import Work from "./svg/work";
 import Imagine from "./svg/imagine";
 import Future from "./svg/future";
+import Thunder from "./svg/thunder";
 
 export default function NavFilter() {
   return (
     <nav className={styles.filterNav}>
       <ul>
+        <li>
+          <Thunder />
+          <Link href="/Sociedad">últimos</Link>
+        </li>
         <li>
           <Society />
           <Link href="/Sociedad">sociedad</Link>

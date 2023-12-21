@@ -116,6 +116,10 @@
   gap: 20px;
 }
 
+.titleContainer h1{
+font-size: 50px;
+}
+
 .titleContainer h1, .titleContainer h5 {
   color: #020408;
   text-align: center;

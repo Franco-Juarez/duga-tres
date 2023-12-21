@@ -3,7 +3,7 @@ title: "Modular"
 date: "2023-10-12"
 category: "Sociedad"
 image: "/images/first.png"
-author: "admin"
+author: "Admin"
 ---
 
 Nuestro país apretó un reset que implica parece, el reinicio total de la política nacional. Atraviesa las estructuras partidarias, lo social, el lenguaje, los modos de vivir y vincularnos. Que el botón de reinicio no borre de todos modos, el bosque incendiado que las fuerzas progresistas generaron también en los últimos años para llegar hasta acá. En las entrañas de nuestro propio fracaso se gestó este engendro. Hay nuevas frecuencias, más erráticas, más claras que modular.

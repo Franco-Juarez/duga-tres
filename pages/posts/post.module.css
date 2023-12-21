@@ -1,7 +1,44 @@
-.header {
+.post h1{
+ font-size: 45px;
+ margin-bottom: 0;
+ line-height: 60px;
+ padding-bottom: 20px;
+}
+
+.authorBox {
   display: flex;
   align-items: center;
-  justify-content: center;
-  width: 100%;
-  min-height: 250px;
+  gap: 10px;
+}
+
+.post img {
+  border-radius: 50%;
+}
+
+.authorMeta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.authorMeta p {
+  margin: 0;
+  line-height: 18px;
+  font-size: 16px;
+}
+
+.authorMeta a {
+  margin: 0;
+  color: #2D7676;
+  font-size: 16px;
+}
+
+.sliderWrapper {
+  padding-top: 40px;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.sliderWrapper h2 {
+  font-size: 35px;
 }
