@@ -1,6 +1,6 @@
 import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
-import Layout from "../components/layout";
+import Layout from "./layout";
 
 export default function CategoryArticle({ postsCategory }) {
   const categoryTitle =

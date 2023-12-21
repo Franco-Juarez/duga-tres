@@ -1,6 +1,6 @@
 import styles from "../styles/navBar.module.css";
 
-const TitleContainer = () => {
+export default function TitleContainer() {
   return (
     <div className={styles.titleContainer}>
       <h1>Your Guide in the world of 3D art</h1>
@@ -10,6 +10,4 @@ const TitleContainer = () => {
       </h5>
     </div>
   );
-};
-
-export default TitleContainer;
+}

@@ -2,7 +2,7 @@ import Image from "next/image";
 import styles from "./lastPost.module.css";
 import Link from "next/link";
 
-const LastPost = () => {
+export default function LastPost() {
   return (
     <div className={styles.lastPost}>
       <h1>Título principal</h1>
@@ -21,6 +21,4 @@ const LastPost = () => {
       </div>
     </div>
   );
-};
-
-export default LastPost;
+}

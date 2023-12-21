@@ -5,7 +5,7 @@ import Twitter from "./svg/x-twitter";
 import Instagram from "./svg/instagram-icon";
 import MailIcon from "./svg/mail-icon";
 
-const NavBar = () => {
+export default function NavBar() {
   return (
     <div className={styles.navFullWidth}>
       <div className={styles.navContainer}>
@@ -42,6 +42,4 @@ const NavBar = () => {
       </div>
     </div>
   );
-};
-
-export default NavBar;
+}

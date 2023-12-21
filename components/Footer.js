@@ -1,7 +1,7 @@
 import Link from "next/link";
 import styles from "../styles/navBar.module.css";
 
-const Footer = () => {
+export default function Footer() {
   return (
     <div className={styles.fullWidthFooter}>
       <div className={styles.footerContainer}>
@@ -22,6 +22,4 @@ const Footer = () => {
       </div>
     </div>
   );
-};
-
-export default Footer;
+}
