@@ -4,7 +4,7 @@ import Link from 'next/link';
 import NavBar from './NavBar';
 import Footer from './Footer';
 
-export const siteTitle = 'Next.js Sample Website';
+export const siteTitle = 'Duga-3. Imaginación política en el desierto de ideas';
 
 export default function Layout({ children, home }) {
   return (
@@ -12,8 +12,8 @@ export default function Layout({ children, home }) {
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta
-          name="description"
-          content="Learn how to build a personal website using Next.js"
+          name="Duga-3"
+          content="Imaginación política en el desierto de ideas"
         />
         <meta
           property="og:image"
