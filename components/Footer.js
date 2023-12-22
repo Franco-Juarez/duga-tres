@@ -9,8 +9,7 @@ export default function Footer() {
     <div className={styles.fullWidthFooter}>
       <div className={styles.footerContainer}>
         <p>
-          @Duga-3 - 2023. All rights reserved. Codeado con ❤️ por
-          <Link href="/">Fran</Link>
+          @Duga-3 - 2023. All rights reserved.
         </p>
         <nav>
           <ul>
@@ -32,6 +31,9 @@ export default function Footer() {
           </ul>
         </nav>
       </div>
+      <p className={styles.credits}>
+        Codeado con ❤️ por <Link href="/">Fran</Link>
+      </p>
     </div>
   );
 }

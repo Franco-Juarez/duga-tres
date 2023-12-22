@@ -56,7 +56,7 @@ export default function Post({ postData, latestPosts }) {
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </article>
       <section className={styles.sliderWrapper}>
-        <h2>Últimas publicaciones</h2>
+        <h2 className={styles.publicationTitle}>Últimas publicaciones</h2>
         <Slider 
         postData={latestPosts}
         />
