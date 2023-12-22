@@ -57,10 +57,27 @@
   gap: 10px;
 }
 
-.filterNav a {
+.filterNav button {
   color: #020408;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 18px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.filterNav .activeBtn {
+  color: #2D7676;
+  text-decoration: underline;
+}
+
+
+.filterNav button:hover {
+  color: #2D7676;
+  font-size: 16px;
+  line-height: 18px;
+  background-color: transparent;
+  border: none;
 }
 
 .footerContainer {
