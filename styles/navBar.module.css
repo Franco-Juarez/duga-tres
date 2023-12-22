@@ -132,7 +132,7 @@
   justify-content: center;
   gap: 20px;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 .titleContainer h1{
@@ -202,8 +202,7 @@ font-size: 50px;
     max-width: 400px;
   }
   .titleContainer {
-    padding-top: 10px;
-    min-height: 200px;
+    padding-top: 20px;
   }
   .navContainer {
     display: grid;
@@ -241,5 +240,8 @@ font-size: 50px;
   }
   .credits {
     padding-bottom: 20px;
+  }
+  .titleContainer {
+    padding-top: 20px;
   }
 }

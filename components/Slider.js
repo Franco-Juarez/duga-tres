@@ -13,26 +13,8 @@ import styles from "../components/slider.module.css";
 import Image from "next/image";
 import Arrow from "./svg/arrow";
 import Link from "next/link";
-import { useEffect, useState } from "react";
 
 export default function Slider({ postData }) {
-
-  const [slidesPerView, setSlidesPerView] = useState(2);
-
-  useEffect(() => {
-    const handleResize = () => {
-      // Cambia el valor de slidesPerView según el ancho de la pantalla
-      setSlidesPerView(window.innerWidth > 767 ? 2 : 1);
-    };
-
-    // Llama a handleResize cuando la ventana se redimensiona
-    window.addEventListener("resize", handleResize);
-
-    // Limpia el evento al desmontar el componente
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, []);
 
   return (
     <div className={styles.swiperWrapper}>
@@ -40,12 +22,19 @@ export default function Slider({ postData }) {
         // install Swiper modules
         modules={[Pagination, Navigation]}
         spaceBetween={20}
-        slidesPerView={slidesPerView}
         loop={true}
         pagination={{ clickable: true, type: "bullets" }}
         style={{
           "--swiper-pagination-color": "#2D7676",
           "--swiper-navigation-color": "#020408",
+        }}
+        breakpoints={{
+          767: {
+            slidesPerView: 1,
+          },
+          1024: {
+            slidesPerView: 2,
+          },
         }}
       >
         {postData.map(({ id, date, title, image, author }) => (
