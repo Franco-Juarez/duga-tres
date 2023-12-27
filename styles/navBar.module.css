@@ -229,6 +229,7 @@ font-size: 50px;
   .navContainer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 10px;
   }
  
   .openNav {
