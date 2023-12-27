@@ -17,7 +17,8 @@ import Link from "next/link";
 export default function Slider({ postData }) {
 
   return (
-    <div className={styles.swiperWrapper}>
+    <div
+    className={styles.swiperWrapper}>
       <Swiper
         // install Swiper modules
         modules={[Pagination, Navigation]}

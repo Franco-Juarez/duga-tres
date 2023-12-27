@@ -32,7 +32,7 @@ export default function Footer() {
         </nav>
       </div>
       <p className={styles.credits}>
-        Codeado con ❤️ por <Link href="/">Fran</Link>
+        Codeado con ❤️ por <a target="_blank" href="https://github.com/Franco-Juarez">Fran</a>
       </p>
     </div>
   );
