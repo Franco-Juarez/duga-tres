@@ -10,7 +10,7 @@ export async function getStaticProps() {
   };
 }
 
-export default function Economia({ postEconomia }) {
+export default function economia({ postEconomia }) {
   return (
     <div>
       <CategoryArticle postsCategory={postEconomia} />

@@ -10,7 +10,7 @@ export async function getStaticProps() {
   };
 }
 
-export default function Sociedad({ postsSociedad }) {
+export default function sociedad({ postsSociedad }) {
   return (
     <div>
       <CategoryArticle postsCategory={postsSociedad} />
