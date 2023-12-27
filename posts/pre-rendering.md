@@ -1,7 +1,7 @@
 ---
 title: "Two Forms of Pre-rendering"
 date: "2020-01-01"
-category: "Economía"
+category: "economia" #siempre en minúscula
 image: "/images/second.png"
 author: "Admin"
 ---

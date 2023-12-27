@@ -25,32 +25,35 @@ export default function NavBar() {
             </li>
           </ul>
         </nav>
-        <Image width={180} height={45} src="/images/logo.png" />
+        <Link
+        href="/">
+          <Image width={180} height={45} src="/images/logo.png" />
+        </Link>
         <div className={styles.hamburgerContainer}>
           <button onClick={setMenu} className={styles.hamburgerBtn}>
             <Hamburger />
           <nav className={open ? styles.openNav : styles.closedNav}>
             <ul>
               <li>
-                <Link href="/">Economía</Link>
+                <Link href="/economia">Economía</Link>
               </li>
               <li>
-                <Link href="/">Sociedad</Link>
+                <Link href="/sociedad">Sociedad</Link>
               </li>
               <li>
-                <Link href="/">Trabajo</Link>
+                <Link href="/trabajo">Trabajo</Link>
               </li>
               <li>
-                <Link href="/">Futuro</Link>
+                <Link href="/futuro">Futuro</Link>
               </li>
               <li>
-                <Link href="/">Imaginación política</Link>
+                <Link href="/imaginacion-politica">Imaginación política</Link>
               </li>
               <li className={styles.closedLi}>
-                <Link href="/">Nosotros</Link>
+                <Link href="/nosotros">Nosotros</Link>
               </li>
               <li className={styles.closedLi}>
-                <Link href="/">Contacto</Link>
+                <Link href="/contact">Contacto</Link>
               </li>
             </ul>
           </nav>

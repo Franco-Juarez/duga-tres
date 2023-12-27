@@ -89,6 +89,7 @@
   padding: 10px 20px;
   background-color: #F3F6F7;
   margin: 0 auto;
+  background-color: transparent;
 }
 
 .navContainer ul, .footerContainer ul {
@@ -96,11 +97,6 @@
   justify-content: flex-end;
   list-style: none;
   gap: 20px;
-  padding: 0;
-}
-
-.footerContainer {
-  background-color: transparent;
   padding: 0;
 }
 
@@ -228,7 +224,7 @@ font-size: 50px;
   .navContainer .navLink {
     display: none;
   }
-  .navContainer img {
+  .navContainer img, .navContainer a {
     margin-right: auto;
   }
   .openNav {
@@ -254,6 +250,7 @@ font-size: 50px;
   }
   .footerContainer p {
     padding-top: 20px;
+    text-align: center;
   }
   .credits {
     padding-bottom: 20px;

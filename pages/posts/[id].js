@@ -2,7 +2,6 @@ import Layout from '../../components/layout';
 import { getAllPostIds, getPostData, getLatestPosts } from '../../lib/posts';
 import Head from 'next/head';
 import Date from '../../components/date';
-import utilStyles from '../../styles/utils.module.css';
 import styles from "./post.module.css"
 import Image from 'next/image';
 import Link from 'next/link';
@@ -46,12 +45,9 @@ export default function Post({ postData, latestPosts }) {
           src={postData.image}
           />
           <div className={styles.authorMeta}>
-            <p>{postData.author}</p>
+            <div className={styles.authorDateContainer}><p>{postData.author}</p> |  <Date dateString={postData.date} /></div>
             <Link href={`/${postData.category}`}>{postData.category}</Link>
           </div>
-        </div>
-        <div className={utilStyles.lightText}>
-          <Date dateString={postData.date} />
         </div>
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </article>

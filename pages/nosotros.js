@@ -5,7 +5,7 @@ export default function Nosotros() {
   return (
     <Layout>
       <main className={utilStyles.headingMd}>
-        <h1>Nosotros</h1>
+        <h1 className={utilStyles.headingCategory}>Nosotros</h1>
       </main>
     </Layout>
   );

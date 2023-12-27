@@ -2,18 +2,18 @@ import { getPostsByCategory } from "../lib/posts";
 import CategoryArticle from "../components/categoryArticles";
 
 export async function getStaticProps() {
-  const postsSociedad = getPostsByCategory("Economía");
+  const postEconomia = getPostsByCategory("economia");
   return {
     props: {
-      postsSociedad,
+      postEconomia,
     },
   };
 }
 
-export default function Sociedad({ postsSociedad }) {
+export default function Economia({ postEconomia }) {
   return (
     <div>
-      <CategoryArticle postsCategory={postsSociedad} />
+      <CategoryArticle postsCategory={postEconomia} />
     </div>
   );
 }

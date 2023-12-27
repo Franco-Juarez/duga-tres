@@ -1,7 +1,7 @@
 ---
 title: "Modular"
 date: "2023-10-12"
-category: "Sociedad"
+category: "sociedad" #siempre en minúscula
 image: "/images/first.png"
 author: "Admin"
 ---

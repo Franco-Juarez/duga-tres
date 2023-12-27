@@ -11,7 +11,7 @@ export default function CategoryArticle({ postsCategory }) {
   return (
     <Layout>
       <main className={utilStyles.headingMd}>
-        <h1>{categoryTitle}</h1>
+        <h1 className={utilStyles.categoryTitle}>{categoryTitle}</h1>
         <div>
           <ul className={utilStyles.list}>
             {postsCategory.map(({ id, title, category, date }) => (

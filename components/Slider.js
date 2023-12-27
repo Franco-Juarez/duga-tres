@@ -39,24 +39,26 @@ export default function Slider({ postData }) {
       >
         {postData.map(({ id, date, title, image, author }) => (
           <SwiperSlide className={styles.swip} key={id}>
+            <Link href={`/posts/${id}`}>
             <Image
               className={styles.articleImg}
               width={400}
               height={400}
               src={image}
             />
+            </Link>
             <Link href="/" className={styles.authorBox}>
               <Image height={40} width={40} src={image} />
               <p>{author}</p>
             </Link>
             <div className={styles.description}>
+            <Link href={`/posts/${id}`}>
               <div>
                 <h2>{title}</h2>
-                <Link href={`/posts/${id}`}>
-                  <Arrow />
-                </Link>
+                <Arrow />
               </div>
               <p>{date}</p>
+            </Link>
             </div>
           </SwiperSlide>
         ))}

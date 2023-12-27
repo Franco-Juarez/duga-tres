@@ -52,3 +52,11 @@
 .lightText {
   color: #666;
 }
+
+.categoryTitle {
+  text-transform: capitalize;
+}
+
+.headingCategory {
+  padding-left: 20px;
+}

@@ -66,52 +66,52 @@ export default function Home({ allPostsData }) {
           </li>
           <li>
             <Society
-            color={selectedCategory === 'Sociedad' ? "#2D7676" : '#020408'}
+            color={selectedCategory === 'sociedad' ? "#2D7676" : '#020408'}
             />
             <button
-            className={selectedCategory === 'Sociedad' ? styles.activeBtn : ''} 
+            className={selectedCategory === 'sociedad' ? styles.activeBtn : ''} 
             key={"Sociedad"}
-            onClick={() => handleButtonClick("Sociedad")}
+            onClick={() => handleButtonClick("sociedad")}
             >Sociedad</button>
           </li>
           <li>
             <Economy
-            color={selectedCategory === 'Economía' ? "#2D7676" : '#020408'}
+            color={selectedCategory === 'economia' ? "#2D7676" : '#020408'}
             />
             <button 
-            className={selectedCategory === 'Economía' ? styles.activeBtn : ''} 
+            className={selectedCategory === 'economia' ? styles.activeBtn : ''} 
             key={"Economía"}
-            onClick={() => handleButtonClick("Economía")}
+            onClick={() => handleButtonClick("economia")}
             >Economía</button>
           </li>
           <li>
             <Work
-            color={selectedCategory === 'Trabajo' ? "#2D7676" : '#020408'}
+            color={selectedCategory === 'trabajo' ? "#2D7676" : '#020408'}
             />
             <button 
-            className={selectedCategory === 'Trabajo' ? styles.activeBtn : ''} 
+            className={selectedCategory === 'trabajo' ? styles.activeBtn : ''} 
             key={"Trabajo"}
-            onClick={() => handleButtonClick("Trabajo")}
+            onClick={() => handleButtonClick("trabajo")}
             >Trabajo</button>
           </li>
           <li>
             <Future
-            color={selectedCategory === 'Futuro' ? "#2D7676" : '#020408'}
+            color={selectedCategory === 'futuro' ? "#2D7676" : '#020408'}
             />
             <button 
-            className={selectedCategory === 'Futuro' ? styles.activeBtn : ''} 
+            className={selectedCategory === 'futuro' ? styles.activeBtn : ''} 
             key={"Futuro"}
-            onClick={() => handleButtonClick("Futuro")}
+            onClick={() => handleButtonClick("futuro")}
             >Futuro</button>
           </li>
           <li>
             <Imagine
-            color={selectedCategory === 'Imaginación política' ? "#2D7676" : '#020408'}
+            color={selectedCategory === 'imaginación política' ? "#2D7676" : '#020408'}
             />
             <button 
-            className={selectedCategory === 'Imaginación política' ? styles.activeBtn : ''} 
+            className={selectedCategory === 'imaginación política' ? styles.activeBtn : ''} 
             key={"Imaginación política"}
-            onClick={() => handleButtonClick("Imaginación política")}
+            onClick={() => handleButtonClick("imaginación política")}
             >Imaginación política</button>
           </li>
         </ul>

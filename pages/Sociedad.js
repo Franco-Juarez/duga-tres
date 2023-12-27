@@ -2,7 +2,7 @@ import { getPostsByCategory } from "../lib/posts";
 import CategoryArticle from "../components/categoryArticles";
 
 export async function getStaticProps() {
-  const postsSociedad = getPostsByCategory("Sociedad");
+  const postsSociedad = getPostsByCategory("sociedad");
   return {
     props: {
       postsSociedad,

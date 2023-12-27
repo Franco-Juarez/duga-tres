@@ -1,7 +1,7 @@
 ---
 title: "When to Use Static Generation"
 date: "2020-01-02"
-category: "Sociedad"
+category: "sociedad" #siempre en minúscula
 image: "/images/third.png"
 author: "Admin"
 ---
