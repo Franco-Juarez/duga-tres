@@ -226,6 +226,7 @@ font-size: 50px;
   .titleContainer {
     padding-top: 20px;
   }
+
   .navContainer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -245,6 +246,10 @@ font-size: 50px;
   .hamburgerContainer {
     display: block;
     margin-left: auto;
+  }
+
+  .navContainer {
+    padding-bottom: 10px;
   }
 
   .navContainer .navLink {
