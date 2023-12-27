@@ -35,10 +35,10 @@ export default function NavBar() {
           <nav className={open ? styles.openNav : styles.closedNav}>
             <ul>
               <li>
-                <Link href="/economia">Economía</Link>
+                <Link href="/Economia">Economía</Link>
               </li>
               <li>
-                <Link href="/sociedad">Sociedad</Link>
+                <Link href="/Sociedad">Sociedad</Link>
               </li>
               <li>
                 <Link href="/trabajo">Trabajo</Link>
