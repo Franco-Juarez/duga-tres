@@ -66,22 +66,22 @@ export default function Home({ allPostsData }) {
           </li>
           <li>
             <Society
-            color={selectedCategory === 'sociedad' ? "#2D7676" : '#020408'}
+            color={selectedCategory === 'Sociedad' ? "#2D7676" : '#020408'}
             />
             <button
-            className={selectedCategory === 'sociedad' ? styles.activeBtn : ''} 
+            className={selectedCategory === 'Sociedad' ? styles.activeBtn : ''} 
             key={"Sociedad"}
-            onClick={() => handleButtonClick("sociedad")}
+            onClick={() => handleButtonClick("Sociedad")}
             >Sociedad</button>
           </li>
           <li>
             <Economy
-            color={selectedCategory === 'economia' ? "#2D7676" : '#020408'}
+            color={selectedCategory === 'Economia' ? "#2D7676" : '#020408'}
             />
             <button 
-            className={selectedCategory === 'economia' ? styles.activeBtn : ''} 
+            className={selectedCategory === 'Economia' ? styles.activeBtn : ''} 
             key={"Economía"}
-            onClick={() => handleButtonClick("economia")}
+            onClick={() => handleButtonClick("Economia")}
             >Economía</button>
           </li>
           <li>
