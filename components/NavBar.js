@@ -15,6 +15,10 @@ export default function NavBar() {
   return (
     <div className={styles.navFullWidth}>
       <div className={styles.navContainer}>
+      <Link
+        href="/">
+          <Image width={180} height={45} src="/images/logo.png" />
+        </Link>
         <nav className={styles.navLink}>
           <ul>
             <li>
@@ -23,37 +27,30 @@ export default function NavBar() {
             <li>
               <Link href="/contact">contacto</Link>
             </li>
+            <li>
+              <Link href="/contact">newsletter</Link>
+            </li>
+            <li>
+              <a target="_blank" href="https://cafecito.app/">colaborá</a>
+            </li>
           </ul>
         </nav>
-        <Link
-        href="/">
-          <Image width={180} height={45} src="/images/logo.png" />
-        </Link>
         <div className={styles.hamburgerContainer}>
           <button onClick={setMenu} className={styles.hamburgerBtn}>
             <Hamburger />
           <nav className={open ? styles.openNav : styles.closedNav}>
             <ul>
               <li>
-                <Link href="/Economia">Economía</Link>
+                <Link href="/nosotros">nosotros</Link>
               </li>
               <li>
-                <Link href="/Sociedad">Sociedad</Link>
+                <Link href="/contact">contacto</Link>
               </li>
               <li>
-                <Link href="/trabajo">Trabajo</Link>
+                <Link href="/newsletter">newsletter</Link>
               </li>
               <li>
-                <Link href="/futuro">Futuro</Link>
-              </li>
-              <li>
-                <Link href="/imaginacion-politica">Imaginación política</Link>
-              </li>
-              <li className={styles.closedLi}>
-                <Link href="/nosotros">Nosotros</Link>
-              </li>
-              <li className={styles.closedLi}>
-                <Link href="/contact">Contacto</Link>
+                <a target="_blank" href="https://cafecito.app/">colaborá</a>
               </li>
             </ul>
           </nav>

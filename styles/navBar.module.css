@@ -9,7 +9,7 @@
 
 .navContainer {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
     grid-column-gap: 20px;
     grid-row-gap: 20px;
@@ -21,9 +21,18 @@
     padding-right: 20px;
 }
 
+.navContainer img, .navContainer a {
+  margin-right: auto;
+}
+
 .navLink{
   width: 100%;
   display: flex;
+  margin-right: auto;
+}
+
+.navLink ul {
+  margin-left: auto;
 }
 
 .filterNav {
@@ -171,7 +180,7 @@ font-size: 50px;
 }
 
 .hamburgerContainer {
-  margin-left: auto;
+  display: none;
 }
 
 .hamburgerBtn {
@@ -221,12 +230,7 @@ font-size: 50px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
-  .navContainer .navLink {
-    display: none;
-  }
-  .navContainer img, .navContainer a {
-    margin-right: auto;
-  }
+ 
   .openNav {
     margin-top: 10px;
     margin-left: -135px;
@@ -237,6 +241,15 @@ font-size: 50px;
 }
 
 @media screen and (max-width: 767px){
+  .hamburgerContainer {
+    display: block;
+    margin-left: auto;
+  }
+
+  .navContainer .navLink {
+    display: none;
+  }
+
   .filterNav ul{
     flex-wrap: wrap;
     align-items: center;
