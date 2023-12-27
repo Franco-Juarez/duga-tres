@@ -15,9 +15,9 @@ export default function NavBar() {
   return (
     <div className={styles.navFullWidth}>
       <div className={styles.navContainer}>
-      <Link
-        href="/">
-          <Image width={180} height={45} src="/images/logo.png" />
+        <Link
+          href="/">
+            <Image width={180} height={45} src="/images/logo.png" />
         </Link>
         <nav className={styles.navLink}>
           <ul>
@@ -28,7 +28,7 @@ export default function NavBar() {
               <Link href="/contact">contacto</Link>
             </li>
             <li>
-              <Link href="/contact">newsletter</Link>
+              <Link href="/newsletter">newsletter</Link>
             </li>
             <li>
               <a target="_blank" href="https://cafecito.app/">colaborá</a>
