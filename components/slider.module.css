@@ -25,6 +25,10 @@
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
+.swip a {
+  width: 100%;
+}
+
 .swip h2 {
   text-align: left;
   line-height: 30px;
