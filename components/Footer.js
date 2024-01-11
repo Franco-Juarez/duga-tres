@@ -3,14 +3,13 @@ import styles from "../styles/navBar.module.css";
 import Twitter from "./svg/x-twitter";
 import Instagram from "./svg/instagram-icon";
 import MailIcon from "./svg/mail-icon";
+import NewsletterForm from "./newsletterForm";
 
 export default function Footer() {
   return (
     <div className={styles.fullWidthFooter}>
+        <NewsletterForm />
       <div className={styles.footerContainer}>
-        <p>
-          @Duga-3 - 2023. All rights reserved.
-        </p>
         <nav>
           <ul>
           <li>
@@ -30,6 +29,9 @@ export default function Footer() {
             </li>
           </ul>
         </nav>
+        <p>
+          Duga-3 • @2023 • All rights reserved
+        </p>
       </div>
       <p className={styles.credits}>
         Codeado con ❤️ por <a target="_blank" href="https://github.com/Franco-Juarez">Fran</a>
